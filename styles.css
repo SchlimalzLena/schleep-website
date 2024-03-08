@@ -1,0 +1,98 @@
+.h1tv {
+  text-align: center;
+  font-family: Lucida;
+  font-weight: bolder;
+  color: #c77066;
+}
+h1 {
+  text-align: center;
+  font-family: Lucida Handwriting;
+  font-weight: bolder;
+  color: #c77066;
+}
+header {
+  text-align: center;
+  background-color: #f4f2f5;
+  border-radius: 50px;
+  padding: 1px;
+}
+nav {
+  float: left;
+  background: #f4f2f5;
+  padding: 20px;
+}
+article {
+  float: center;
+  padding: 20px;
+  background-color: #f4f2f5;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width: 600px) {
+  nav,
+  article {
+    width: 100%;
+    height: auto;
+  }
+}
+.small {
+  font-size: small;
+}
+p {
+  text-align: center;
+  font-family: Monaco;
+  font-size: large;
+  font-style: italic;
+}
+img {
+  width: 25px;
+  border-radius: 10px;
+}
+button {
+  background-color: #f4f2f5;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: #f4f2f5;
+}
+li {
+  float: left;
+}
+li a {
+  background-color: #f4f2f5;
+  padding: 15px 20px;
+  text-align: center;
+  border-radius: 5px;
+  color: #c77066;
+  text-decoration: none;
+  display: inline-block;
+}
+li a:hover {
+  color: #f4f2f5;
+  background-color: #c77066;
+}
+.container {
+  background-color: #f4f2f5;
+  border-radius: 50px;
+  padding: 1px;
+}
+body {
+  background-image: url("images/sea.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: ;
+}
